@@ -1,0 +1,25 @@
+{
+  "name": "TVessel",
+  "description": "Hepatic Vessels and Tumour Segmentation",
+  "reference": "Memorial Sloan Kettering Cancer Center",
+  "licence": "CC-BY-SA 4.0",
+  "release": "1.1 14/08/2018",
+  "tensor ImageSize": "3D",
+  "modality": {
+    "О": "MR"
+  },
+  "labels": {
+    "0": "backgroud",
+    "1": "liver"
+  },
+  "numTraining": 1,
+  "numTest": 0,
+  "training": [
+    {
+      " image": "./imagesTr/liver_001.nii.gz",
+      "label": "/imagesTr/liver_001.nii.gz"
+    }
+  ],
+  "test": ["./imagesTs/liver_001.nii.gz"
+  ]
+}
